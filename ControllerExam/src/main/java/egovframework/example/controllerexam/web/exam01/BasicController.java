@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  *
  */
 @Controller
-public class HelloWorldController {
+public class BasicController {
 	@RequestMapping(value = "/exam01/hello.do", method = RequestMethod.GET)
 	public String hello() {
 		return "/exam01/hello";
