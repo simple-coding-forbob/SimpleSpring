@@ -4,6 +4,7 @@
 package egovframework.example.controllerexam.web.exam01;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -14,7 +15,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HelloWorldController {
 	@RequestMapping(value = "/exam01/hello.do", method = RequestMethod.GET)
-	public String Hello() {
-		return "exam01/hello";
+	public String hello() {
+		return "/exam01/hello";
+	}
+	
+	@GetMapping("/exam01/example01.do")
+	public String example01() {
+		return "/exam01/example01";
 	}
 }
