@@ -24,7 +24,7 @@ public class Quiz02Controller {
     
 //	퀴즈 3
     @GetMapping("/qz02/quiz02.do")
-    public String quiz01(Model model,
+    public String quiz02(Model model,
                              @RequestParam(defaultValue = "0") int dno) {
         model.addAttribute("dno", dno);
         return "qz02/quiz02";

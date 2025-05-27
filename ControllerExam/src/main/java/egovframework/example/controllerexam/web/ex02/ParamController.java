@@ -12,7 +12,7 @@ public class ParamController {
     @GetMapping("/ex02/example01.do")
     public String example01(Model model,
                             @RequestParam(defaultValue = "") String name) {
-        model.addAttribute("greeting", name);
+        model.addAttribute("name", name);
         return "ex02/example01";
     }
 }
