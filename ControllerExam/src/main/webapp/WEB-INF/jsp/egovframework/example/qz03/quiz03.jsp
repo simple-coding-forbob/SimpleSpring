@@ -12,10 +12,13 @@
 	rel="stylesheet"
 	integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
 	crossorigin="anonymous">
+
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-	<div class="container mt-3">
-		<table class="table">
+	<div class="page mt5">
+		<table class="table tcenter">
 			<thead>
 				<tr>
 					<th scope="col">eno</th>

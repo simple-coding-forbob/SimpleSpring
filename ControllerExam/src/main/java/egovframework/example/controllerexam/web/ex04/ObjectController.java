@@ -16,5 +16,4 @@ public class ObjectController {
     ) {
         return "ex04/example01";
     }
-
 }

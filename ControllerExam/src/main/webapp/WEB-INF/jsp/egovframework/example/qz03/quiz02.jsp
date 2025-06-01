@@ -5,8 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-	<p>${list}</p>
+    <div class="page mt5">
+	    <p>${list}</p>
+    </div>
 </body>
 </html>
