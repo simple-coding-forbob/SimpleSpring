@@ -142,6 +142,18 @@
     <p><fmt:formatDate value="${a}"
                         pattern="yyyy-MM-dd hh:mm:ss" /></p>		
 		
+		
+    <h2>5. 화면에 글자 표시: jstl 표현식, el 표현식</h2>
+    <c:out value="안녕"></c:out>
+
+    <h2>6. el 표현식: 데이터 확인</h2>
+    ${"안녕"}
+    <br>
+    
+    <h2>7. el 표현식: if/for 문 사용불가</h2>
+    <!-- 안됨: if조건문, for반복문 -->
+    <%-- ${if(num>2){console.log("2")}} --%>
+    <%-- ${for(int i=0;i<2;i++){console.log("2")}} --%>
 	</div>
 </body>
 </html>
